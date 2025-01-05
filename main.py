@@ -28,8 +28,6 @@ class DataImput:
             2. Original sparse tensor and dense tensor
         '''
 
-        # github pad: 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
-
         parser=argparse.ArgumentParser(description='Arguments for Parameters Setting')
         parser.add_argument("--Course",nargs=1,type=str,default=['CSAL'])
         parser.add_argument("--data_path",nargs=2,type=str,default=['/dataset','/CSAL'])
